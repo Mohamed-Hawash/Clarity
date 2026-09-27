@@ -1,0 +1,222 @@
+@media (max-width: 991.98px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+    .custom-actions-group {
+        flex-direction: column;
+        align-items: flex-start !important;
+        width: 100%;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid #eee;
+        margin-left: 0 !important;
+    }
+    .custom-actions-group .custom-sign-in-text {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 0.5rem;
+    }
+    .custom-mega-menu {
+        width: 100% !important;
+        position: relative;
+        left: auto !important;
+        right: auto !important;
+        transform: none;
+        box-shadow: none;
+        padding: 1rem !important;
+    }
+    .custom-mega-dropdown .dropdown-menu,
+    .custom-mega-dropdown.show .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        display: block;
+    }
+    .custom-nav-links .custom-link {
+        margin-right: 0;
+    }
+    .image-wrapper {
+        max-width: 400px;
+    }
+    .image-bg-shape-orig {
+        transform: none;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .decorative-corner-orig {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .top-right-corner-orig {
+        top: -10px;
+        right: 10px;
+    }
+    .bottom-left-corner-orig {
+        bottom: -10px;
+        left: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .custom-mega-dropdown .dropdown-menu {
+        width: 900px;
+    }
+}
+
+@media (max-width: 992px) {
+    .custom-mega-dropdown .dropdown-menu {
+        width: 90vw;
+        padding: 20px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+    .custom-sign-in-text {
+        margin-left: 0 !important;
+        margin-right: 1rem !important;
+    }
+    .hero-title {
+        font-size: 3rem;
+    }
+    .stat-group {
+        justify-content: center;
+    }
+    .stat-item {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    .custom-cta-button,
+    .custom-demo-button {
+        padding: 10px 20px;
+    }
+    .stat-number {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .hero-description {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .d-flex.align-items-center.flex-wrap {
+        justify-content: center;
+    }
+    .custom-cta-button,
+    .custom-demo-button {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 10px;
+    }
+    .stat-group {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .custom-mega-dropdown .dropdown-menu {
+        width: 900px;
+    }
+}
+
+@media (max-width: 992px) {
+    .custom-mega-dropdown .dropdown-menu {
+        width: 90vw;
+        padding: 20px !important;
+    }
+    .image-bg-shape {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+}
+
+
+/* ================================================= */
+
+@media (max-width: 1200px) {
+    .custom-mega-dropdown .dropdown-menu {
+        width: 900px;
+    }
+}
+
+@media (max-width: 992px) {
+    .custom-mega-dropdown .dropdown-menu {
+        width: 90vw;
+        padding: 20px !important;
+    }
+    .image-bg-shape {
+        transform: translateX(0);
+    }
+    .stats-wrapper {
+        height: 180px;
+    }
+    .stat-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    .stat-item {
+        min-width: 100%;
+        text-align: center;
+        padding: 10px 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .mega-menu-wrapper .menu-panel-large {
+        position: static !important;
+        width: 100% !important;
+        transform: none !important;
+    }
+    .row-cols-md-3>.col {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading-hero {
+        font-size: 2.5rem;
+    }
+    .heading-main-level {
+        font-size: 2rem;
+    }
+    .row-cols-md-3>.col {
+        width: 100%;
+    }
+    .tech-tabs-group {
+        flex-wrap: wrap;
+    }
+    .tech-tabs-group .tab-button-style {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+    .service-panel-card {
+        text-align: center;
+    }
+    .service-panel-card .text-start {
+        text-align: center !important;
+    }
+}
